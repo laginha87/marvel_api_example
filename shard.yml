@@ -6,7 +6,7 @@ authors:
 
 targets:
   marvel_api_example:
-    main: src/marvel_api_example.cr
+    main: src/marvel.cr
 
 dependencies:
   dotenv:

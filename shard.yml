@@ -1,0 +1,13 @@
+name: marvel_api_example
+version: 0.1.0
+
+authors:
+  -  <filipe.lp.correia@gmail.com>
+
+targets:
+  marvel_api_example:
+    main: src/marvel_api_example.cr
+
+crystal: 0.24.1
+
+license: MIT

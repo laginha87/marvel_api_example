@@ -8,6 +8,10 @@ targets:
   marvel_api_example:
     main: src/marvel_api_example.cr
 
+dependencies:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
 crystal: 0.24.1
 
 license: MIT

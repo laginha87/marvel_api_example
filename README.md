@@ -1,18 +1,20 @@
 # marvel_api_example
 
-TODO: Write a description here
+This is a sample app I built as a companion to this [blog post]()
 
 ## Installation
 
-TODO: Write installation instructions here
+1. If you don't have crystal set up follow the [instructions from the crystal wiki](https://crystal-lang.org/docs/installation/)
+1. Create an account in https://developer.marvel.com/docs and get your own keys
+1. ```shards install```
+1. ```cp .env.example .env``` and place your keys in the .env file
 
 ## Usage
 
-TODO: Write usage instructions here
+Run ```shards build``` to build the binary then run it with from ```bin/marvel_api_example```.
+The program takes a bit to finish because the api requests are really long, the requests then get cached into the ```cache``` folder.
 
-## Development
-
-TODO: Write development instructions here
+If you get an invalid request because the keys are wrong or something like that, you need to clear the cache folder before running again.
 
 ## Contributing
 

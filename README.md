@@ -1,6 +1,6 @@
 # marvel_api_example
 
-This is a sample app I built as a companion to this [blog post]()
+This is a sample app I built as a companion to this [blog post](https://revs.runtime-revolution.com/crystal-is-not-ruby-pt-2-7c3d988aa9a1)
 
 ## Installation
 
